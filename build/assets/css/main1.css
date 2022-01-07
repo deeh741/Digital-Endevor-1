@@ -1,0 +1,75 @@
+body , html {
+    margin: 0;
+    padding: 0px;
+    font-family: Arial;
+
+}
+
+/* *, *:after, *:before {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}*/
+
+.hero {
+    float: left;
+}
+
+#contents{
+    text-align: center;
+    float: right;
+}
+
+.navbar {
+    background-color: rgb(30, 72, 132);
+    height: 100vh;
+    width: 218px;
+}
+
+li a {
+    width: 218px;
+    text-decoration: none;
+}
+
+.menu {
+    width: 218px;
+    height: 100vh;
+    float: left;
+    margin: 0px;
+    padding: 0px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 218px;
+    height: 100%;
+}
+
+.menulateral {
+    font-size: 20px;
+    color: white; 
+    border: solid; 
+    border-left: 0;
+    border-right: 0;
+    border-bottom: 0;
+    border-width: 1px;
+    width: 198px; 
+    height: 79; 
+    padding: 10px;
+    background-color: rgb(30, 72, 132);
+    margin-left: 0;
+    margin-top: 0;
+    margin: 0;
+    display: block;
+    
+}
+
+li a:hover {
+    cursor: pointer;
+    position: relative;
+    border-bottom: 0;
+    box-shadow: 3px 7px 3px rgb(23, 59, 110);
+    
+}

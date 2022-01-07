@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./build/assets/css/main.css">
+    <link rel="stylesheet" href="./build/assets/css/componentes/input.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" 
+        integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+    <title>Prática - Configurações</title>
+</head>
+
+<body>
+    <div id="menu" class="navbar">
+        <img height="63px" width="174px" src="./logo-pratica-blue.png">
+        <ul>
+            <li><a class="stylemenu" href="./Index.html">
+                <i class="fas fa-book"></i></i> Meus Menus</a>
+            </li>
+            <li><a class="stylemenu" href="./cookbook.html">
+                <i class="fas fa-book-open"></i> Cookbook</a>
+            </li>
+            <li><a class="stylemenu" href="./equipamentos.html">
+                <i class="far fa-hdd"></i> Equipamentos</a>
+            </li>
+            <li><a class="stylemenu" href="./configuracao.html">
+                <i class="fas fa-cog"></i> Configurações</a>
+            </li>
+            <li><a class="stylemenu" href="">
+                <i class="fas fa-sign-out-alt"></i> Logout</a>
+            </li>
+        </ul>
+    </div>
+
+    <div id="conteudo">
+        <ul>
+            <li id="titlefont">
+                <a>Configurações</a>
+            </li>
+        </ul>
+    </div>
+
+    <div id="conteudo">
+        <ul>
+            <li>
+                <span id="configfonts">Nome</span>
+                <input type="text">
+            </li>
+            <li>
+                <span id="configfonts">Email</span>
+                <input type="email">
+            </li>
+            <li>
+                <span id="configfonts">Senha</span>
+                <input type="password">
+            </li>
+            <li id="alingconfig">
+                <button id="bconfig">Salvar</button>
+            </li>
+        </ul>
+    </div>
+    <div id="conteudo">
+        <ul>
+            <li>
+                <a id="titlefont">Info</a>
+            </li>
+            <li>
+                <span id="infofonts">Idioma</span>
+                <select id="infoselec">
+                    <option>Português - BRA</option>
+                    <option>Inglês - USA</option>
+                    <option>Espanhol - FRA</option>
+                </select>
+            </li>
+            <li>
+                <span id="infofonts">Un. Medida - Temp</span>
+                <select id="infoselec">
+                    <option>CELSUS(°C)</option>
+                    <option>FAHRENHEIT(°F)</option>
+                </select>
+            </li>
+            <li>
+                <span id="infofonts">Un. Medida - Peso</span>
+                <select id="infoselec">
+                    <option>Gramas(g)</option>
+                    <option>Quilos(kg)</option>
+                </select>
+            </li>
+        </ul>
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./build/assets/css/main.css">
+    <link rel="stylesheet" href="./build/assets/css/componentes/input.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" 
+        integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+    <title>Prática - Cookbook</title>
+</head>
+
+<body>
+    <div id="menu" class="navbar">
+        <img height="63px" width="174px" src="./logo-pratica-blue.png">
+        <ul>
+            <li><a class="stylemenu" href="./Index.html">
+                <i class="fas fa-book"></i></i> Meus Menus</a>
+            </li>
+            <li><a class="stylemenu" href="./cookbook.html">
+                <i class="fas fa-book-open"></i> Cookbook</a>
+            </li>
+            <li><a class="stylemenu" href="./equipamentos.html">
+                <i class="far fa-hdd"></i> Equipamentos</a>
+            </li>
+            <li><a class="stylemenu" href="./configuracao.html">
+                <i class="fas fa-cog"></i> Configurações</a>
+            </li>
+            <li><a class="stylemenu" href="">
+                <i class="fas fa-sign-out-alt"></i> Logout</a>
+            </li>
+        </ul>
+    </div>
+
+    <div id="conteudo">
+        <ul>
+            <li id="titlefont"><a>Cookbook</a></li>
+            <li id="row"><a id="newadd" href="">
+                <i class="fas fa-download"></i> Importa Menu</a>
+            </li>
+            <li id="row"><a id="newadd" href="">
+                <i class="fas fa-copy"></i> Copiar Receita</a>
+            </li>
+            <li id="row"><a id="newadd" href="">
+                <i class="fas fa-folder-plus"></i> Criar Menu</a>
+            </li>
+        </ul>
+    </div>
+
+    <div>
+        <input type="text" id="searchcook" placeholder="Buscar Receita">
+    </div>
+
+    <div id="sline">
+        <ul>
+            <li>
+                <p id="scookfont">Fornos</p>
+                <select id="scook">
+                    <option>Selecione aqui</option>
+                    <option>Rocket Express</option>
+                    <option>Copa Express</option>
+                    <option>Copa Single Mag</option>
+                </select>
+            </li>
+            <li>
+                <p id="scookfont">Ingrediente Principal</p>
+                <select id="scook">
+                    <option>Selecione aqui</option>
+                    <option>Queijo</option>
+                    <option>Frango</option>
+                    <option>Leite Condesado</option>
+                </select>
+            </li>
+            <li>
+                <p id="scookfont">Tipo de prato</p>
+                <select id="scook">
+                    <option>Selecione aqui</option>
+                    <option>Salgado</option>
+                    <option>Doce</option>
+                    <option>Quente</option>
+                </select>
+            </li>
+        </select>
+    </ul>
+    </div>
+
+    <div id="subtitlecook">
+        <ul>
+            <li id="fonttitlecook">
+                <p>Receita Cookbook</p>
+            </li>
+        </ul>
+    </div>
+
+    <div id="conteudoobj">
+        <ul>
+            <li id="cookitens">
+                <img height="120px" width="180px" src="./build/assets/imgs/pao-de-queijo-mineiro.jpg">
+                <a id="itensfont" href="">PÃO DE QUEIJO CONGELADO</a>
+                <a id="subitensfont" ><br>Rocket Express</a>
+            </li>
+            <li id="cookitens">
+                <img  height="120px" width="180px" src="./build/assets/imgs/Pizza.jpg">
+                <a id="itensfont" href="">PIZZA<br>REFRIGERADA</a>
+                <a id="subitensfont"><br>Copa Express</a>
+            </li>
+            <li id="cookitens">
+                <img  height="120px" width="180px" src="./build/assets/imgs/massa-para-salgados-assados.jpg">
+                <a id="itensfont" href="">ESFIRRA<br>REFRIGERADA</a>
+                <a id="subitensfont"><br>Copa Single Mag</a>
+            </li>
+            <li id="cookitens">
+                <img  height="120px" width="180px" src="./build/assets/imgs/RocamboleCarneModa.jpg">
+                <a id="itensfont" href="">ROCAMBOLE DE CARNE MOÍDA</a>
+                <a id="subitensfont"><br>Copa Express</a>
+            </li>
+            <li id="cookitens">
+                <img  height="120px" width="180px" src="./build/assets/imgs/pudim-de-leite-receita.jpg">
+                <a id="itensfont" href="">PUDIM DE LEITE CONDESADO</a>
+                <a id="subitensfont"><br>Copa Express</a>
+            </li>
+            <li id="cookitens">
+                <img  height="120px" width="180px" src="./build/assets/imgs/lasanha.jpg">
+                <a id="itensfont" href="">LASANHA CARNE MOÍDA</a>
+                <a id="subitensfont"><br>Copa Single Mag</a>
+            </li>
+            <li id="cookitens">
+                <img  height="120px" width="180px" src="./build/assets/imgs/cookies2.jpg">
+                <a id="itensfont" href="">COOKIES COM GOTAS DE CHOCOLATE</a>
+                <a id="subitensfont"><br>Copa Express</a>
+            </li>
+            <li id="cookitens">
+                <img  height="120px" width="180px" src="./build/assets/imgs/bolo-forno.jpg">
+                <a id="itensfont" href="">BOLO DE<br>CENOURA</a>
+                <a id="subitensfont"><br>Copa Express</a>
+            </li>
+        </ul>
+    </div>
+</body>
+
+</html>
