@@ -1,236 +1,235 @@
-body, html {
-    margin: 0px;
-    padding: 0px;
-    max-width: 1200px;
-    font-family: Arial;
-
+body,
+html {
+  margin: 0px;
+  padding: 0px;
+  max-width: 1200px;
+  font-family: Arial;
 }
 
 #conteudo {
-    width: 70%;
-    float: left;
+  width: 70%;
+  float: left;
 }
 
 #conteudoobj {
-    width: 70%;
-    float: left;
+  width: 70%;
+  float: left;
 }
 
 #conteudo ul li {
-    list-style-type: none;
-    padding: 10px;
+  list-style-type: none;
+  padding: 10px;
 }
 
 ul {
-    float: left;
-    margin: 0px;
-    padding: 0px;
+  float: left;
+  margin: 0px;
+  padding: 0px;
 }
 
 #titlefont {
-    width: 220px;
-    margin-top: 40px;
-    font-size: 30px;
-    font-weight: bold;
-    display: inline-block;
+  width: 220px;
+  margin-top: 40px;
+  font-size: 30px;
+  font-weight: bold;
+  display: inline-block;
 }
 
 /* Itens de importação ou criação */
 #row {
-    display: inline-block;
+  display: inline-block;
 }
 
 #newadd {
-    text-decoration: none;
-    color: blue;
+  text-decoration: none;
+  color: blue;
 }
 
 /* Itens do Menu */
 #itensfont {
-    padding: 1px;
-    text-decoration: none;
-    color: black;
-    font-weight: bold;
+  padding: 1px;
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
 }
 #subitensfont {
-    padding: 1px;
-    font-size: 12px;
+  padding: 1px;
+  font-size: 12px;
 }
 #itens {
-    margin-left: 5px;
-    margin-top: 20px;
-    width: 180px;
-    border:  solid;
-    border-width: 1px;
-    border-radius: 5px;
-    display: inline-block;
-    cursor: pointer;
+  margin-left: 5px;
+  margin-top: 20px;
+  width: 180px;
+  border: solid;
+  border-width: 1px;
+  border-radius: 5px;
+  display: inline-block;
+  cursor: pointer;
 }
 
 /* Itens do Cookbook */
 
 #subtitlecook {
-    width: 70%;
-    display: inline-block;
-    margin-right: 20px;
+  width: 70%;
+  display: inline-block;
+  margin-right: 20px;
 }
 
 #fonttitlecook {
-    list-style-type: none;
-    font-weight: bold;
+  list-style-type: none;
+  font-weight: bold;
 }
 
 #sline ul li {
-    display: inline-block
-    
+  display: inline-block;
 }
 
-#sline{
-    width: 70%;
-    float: left;
-    list-style-type: none;
+#sline {
+  width: 70%;
+  float: left;
+  list-style-type: none;
 }
-#scookfont{
-    margin: 0px;
-    padding: 10px;
+#scookfont {
+  margin: 0px;
+  padding: 10px;
 }
 
 #scook {
-    margin-right: 15px;
-    width: 234px;
-    height: 30px;
-    text-decoration: none;
+  margin-right: 15px;
+  width: 234px;
+  height: 30px;
+  text-decoration: none;
 }
 
 #searchcook {
-    width: 61%;
-    height: 25px;
+  width: 61%;
+  height: 25px;
 }
 
 #cookitens img {
-    border-top-right-radius: 5px;
-    border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  border-top-left-radius: 5px;
 }
 
 #cookitens {
-    text-align: CENTER;
-    margin-left: 5px;
-    margin: 0;
-    margin-top: 30px;
-    text-decoration: none;
-    height: 180px;
-    width: 180px;
-    border:  solid;
-    border-width: 1px;
-    border-radius: 5px;
-    padding: 0px;
-    cursor: pointer;
-    display: inline-block;
+  text-align: CENTER;
+  margin-left: 5px;
+  margin: 0;
+  margin-top: 30px;
+  text-decoration: none;
+  height: 180px;
+  width: 180px;
+  border: solid;
+  border-width: 1px;
+  border-radius: 5px;
+  padding: 0px;
+  cursor: pointer;
+  display: inline-block;
 }
-
 
 /* Barra de navegação */
 #menu {
-    width: 174px;
-    margin: 0px;
-    margin-right: 30px;
-    padding: 0px;
-    float: left;
+  width: 174px;
+  margin: 0px;
+  margin-right: 30px;
+  padding: 0px;
+  float: left;
 }
 
 #menu ul li {
-    margin: 0px;
-    padding: 0px;
-    list-style-type: none; 
+  margin: 0px;
+  padding: 0px;
+  list-style-type: none;
 }
 
 #menu a:link {
-    font-size: 18px;
-    text-decoration: none;
-    padding: 8px;
-    display: block;
+  font-size: 18px;
+  text-decoration: none;
+  padding: 8px;
+  display: block;
 }
 
 .navbar {
-    background-color: rgb(30, 72, 132);
-    height: 100vh;
-    width: 238px;
-    display: inline;
+  background-color: rgb(249, 154, 1);
+  height: 100vh;
+  width: 238px;
+  display: inline;
 }
 
 .stylemenu {
-    color: white; 
-    border: solid; 
-    border-left: 0;
-    border-right: 0;
-    border-bottom: 0;
-    border-width: 1px;
-    width: 160px;
+  color: white;
+  border: solid;
+  border-left: 0;
+  border-right: 0;
+  border-bottom: 0;
+  border-width: 1px;
+  width: 160px;
 }
 
 #menu li a:hover {
-    background-color: white;
-    color: rgb(30, 72, 132);    
+  background-color: white;
+  color: rgb(30, 72, 132);
 }
 
 /* Itens do Tabela */
 table {
-    border-collapse: collapse;
+  border-collapse: collapse;
 }
-th, td {
-    margin: 0px;
-    padding: 5px;
+th,
+td {
+  margin: 0px;
+  padding: 5px;
 }
 td {
-    border-top: solid 1px rgb(219, 224, 255);
-    border-bottom: solid 1px rgb(219, 224, 255);
-    width: 150px;
-    background-color: rgb(225, 244, 255);
+  border-top: solid 1px rgb(219, 224, 255);
+  border-bottom: solid 1px rgb(219, 224, 255);
+  width: 150px;
+  background-color: rgb(225, 244, 255);
 }
 
 td:last-child {
-    width: 80px;
+  width: 80px;
 }
 
 #tbutton {
-    cursor: pointer;
-    color: white;
-    border: 0px;
-    border-radius: 5px;
-    background-color: rgb(30, 72, 132);
+  cursor: pointer;
+  color: white;
+  border: 0px;
+  border-radius: 5px;
+  background-color: rgb(30, 72, 132);
 }
 
 #contentsequip {
-    font-size: 12px;
-    text-align: center;
+  font-size: 12px;
+  text-align: center;
 }
 
 /* Itens de Configurações */
 #configfonts {
-    width: 40px;
-    display: inline-block;
-    margin-right: 50px;
-    text-align: justify;
+  width: 40px;
+  display: inline-block;
+  margin-right: 50px;
+  text-align: justify;
 }
 
 #infofonts {
-    width: 150px;
-    display: inline-block;
-    margin-right: 50px;
-    text-align: justify;
+  width: 150px;
+  display: inline-block;
+  margin-right: 50px;
+  text-align: justify;
 }
 
 #infoselec {
-    width: 200px;
+  width: 200px;
 }
 
 #alingconfig {
-    text-align: right;
+  text-align: right;
 }
 
 #bconfig {
-    background-color: rgb(30, 72, 132);
-    border-radius: 3px;
-    border: 0px;
-    color: white;
+  background-color: rgb(30, 72, 132);
+  border-radius: 3px;
+  border: 0px;
+  color: white;
 }
